@@ -1,0 +1,45 @@
+.link {
+  display: inline-flex;
+  padding: 10px;
+  padding-left: 40px;
+  gap: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  border-color: transparent;
+  color: #000;
+  transition: color 0.3s ease;
+}
+.linkActive,
+.link:hover,
+.link:focus {
+  color: #00a6ff;
+  border-bottom: 2px solid #00a6ff;
+}
+.details {
+  padding: 30px, 40px;
+}
+.detailsMovie {
+  display: flex;
+  border-bottom: 2px solid #000;
+}
+
+.titleTop {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1, 5;
+  align-items: flex-start;
+  padding-left: auto;
+  padding-left: 50px;
+}
+.title {
+  padding-left: 50px;
+}
+
+.info {
+  padding-left: 40px;
+}
+.secondTitle {
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 50px;
+}

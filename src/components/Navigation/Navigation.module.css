@@ -1,0 +1,17 @@
+.nav {
+  align-items: center;
+  gap: 12px;
+  padding-left: 40px;
+}
+.link {
+  display: inline-flex;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  border-color: transparent;
+  color: #000;
+  transition: color 0.5s ease;
+}
+.linkActive {
+  color: #00a6ff;
+}

@@ -1,0 +1,23 @@
+.link {
+  color: #000;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 12px 18px;
+  transition: background-color 0.3s cubic-bezier(0.7, 0.98, 0.86, 0.98);
+}
+
+.link:hover,
+.link:focus {
+  background-color: #00a6ff;
+}
+.btn {
+  font-size: 24px;
+  width: 44px;
+  height: 24px;
+  text-align: center;
+}

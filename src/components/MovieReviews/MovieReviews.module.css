@@ -1,0 +1,14 @@
+.review {
+  color: #000;
+  padding: 20px 30px;
+}
+.item {
+  gap: 8px;
+  margin-bottom: 25px;
+}
+.title {
+  font-weight: 700;
+}
+.text {
+  color: #000;
+}

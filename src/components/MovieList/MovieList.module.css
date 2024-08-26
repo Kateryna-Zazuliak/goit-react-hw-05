@@ -1,0 +1,25 @@
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 50px;
+  text-decoration: none;
+  cursor: zoom-in;
+}
+.link::before {
+  list-style-position: inside;
+  align-items: center;
+  content: "✓";
+  margin-right: 5px;
+  width: 18px;
+}
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+  transform: scale(1.05);
+  box-shadow: 0px 2px 10px 2px #00a6ff;
+}
+.title {
+  color: #000;
+}
